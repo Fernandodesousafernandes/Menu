@@ -1,6 +1,6 @@
 Algoritmo "Menu Lanchonete"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
+// Professor   : Wirla 
 // Descrição   : O programa tem a função de escoher um item do cardápio
 // Autor(a)    : Fernando de Sousa Fernandes
 // Data atual  : 04/10/2022
