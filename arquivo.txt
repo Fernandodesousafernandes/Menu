@@ -1,22 +1,22 @@
 Algoritmo "Menu Lanchonete"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
-// Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
+// Professor   : Wirla 
+// Descri√ß√£o   : O programa tem a fun√ß√£o de escoher um item do card√°pio
+// Autor(a)    : Fernando de Sousa Fernandes
 // Data atual  : 04/10/2022
-//O programa que permita o usu·rio escolher v·rios itens do menu de lanches de uma
+//O programa que permita o usu√°rio escolher v√°rios itens do menu de lanches de uma
 //lanchonete. O menu que o programa deve exibir esta abaixo:
-//1 ñ X-Salada
-//2 ñ X-Bacon
-//3 ñ X-Egg
-//4 ñ Refrigerante
-//5 ñ Finalizar pedido
-//O programa deve permitir que o usu·rio escolha mais de um produto.
-//A medida que o usu·rio vai escolhendo os itens, deve-se somar o valor dos itens
+//1 ‚Äì X-Salada
+//2 ‚Äì X-Bacon
+//3 ‚Äì X-Egg
+//4 ‚Äì Refrigerante
+//5 ‚Äì Finalizar pedido
+//O programa deve permitir que o usu√°rio escolha mais de um produto.
+//A medida que o usu√°rio vai escolhendo os itens, deve-se somar o valor dos itens
 //escolhidos.
-//Quando o usu·rio escolher a opÁ„o 5 (Finalizar pedido), o programa dever· mostrar na
-//tela o total dos itens escolhidos pelo usu·rio
-//Sugiro utilizarem a estrutura de casos e repita atÈ.
+//Quando o usu√°rio escolher a op√ß√£o 5 (Finalizar pedido), o programa dever√° mostrar na
+//tela o total dos itens escolhidos pelo usu√°rio
+//Sugiro utilizarem a estrutura de casos e repita at√©.
 
 
 Var
@@ -36,7 +36,7 @@ inicio
          escreval ("5.Finalizar pedido ")
          escreval()
 
-         escreva("Escolha uma opÁ„o de 1 a 5 ): ")
+         escreva("Escolha uma op√ß√£o de 1 a 5 ): ")
          leia (op)
          escreval()
          ESCOLHA (op)
@@ -68,7 +68,7 @@ inicio
          Caso 5
           escreval ("Pedido Realizado com Sucesso, Volte Sempre! ")
          OUTROCASO
-          escreval ("OpÁ„o invalida")
+          escreval ("Op√ß√£o invalida")
       FIMESCOLHA
          leia (op)
          ate (op) = 5
